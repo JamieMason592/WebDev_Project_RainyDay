@@ -47,7 +47,7 @@
 <body>
 
 <header>
-    <h1>Welcome to Anime Haven</h1>
+    <h1>Anime Haven</h1>
 </header>
 
 <section class="anime-list">
