@@ -6,7 +6,7 @@
 
 @font-face {
 	font-family: DRAGON_HUNTER;
-	src: url(contact/font/DRAGON\ HUNTER.otf);
+	src: url(font/DRAGON_HUNTER.otf);
   }
 
 body{
@@ -30,7 +30,7 @@ body{
 	width: 100%;
 	height: 100%;
 	background:no-repeat center;
-    background-image:url("contact/img/bg.jpg_large");
+    background-image:url("img/bg.jpg_large");
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
@@ -48,7 +48,7 @@ body{
 }
 
 .backround{
-	background: url("contact/img/bg.jpg_large") no-repeat center;
+	background: url("img/bg.jpg_large") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
