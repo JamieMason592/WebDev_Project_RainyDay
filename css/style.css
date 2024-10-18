@@ -48,7 +48,7 @@ body{
 }
 
 .backround{
-	background: url("img/bg.jpg_large") no-repeat center;
+	background: URL("../bg.jpg_large") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
