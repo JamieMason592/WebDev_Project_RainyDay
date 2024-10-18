@@ -30,7 +30,7 @@ body{
 	width: 100%;
 	height: 100%;
 	background:no-repeat center;
-    background-image:url("img/bg.jpg_large");
+        background-color: #e0e0e0;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
