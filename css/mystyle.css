@@ -2,9 +2,13 @@
 	font-family: DRAGON_HUNTER;
 	src: url(../fonts/DRAGON\ HUNTER.otf);
   }
+@font-face {
+    font-family: Comfortaa-Regular;
+    src: url(../fonts/Comfortaa-Regular.ttf);
+}
 body {
     background-color: #ffffff;
-    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: Comforta-Regular;
     margin: 0;
     display: flex;
 }
@@ -26,6 +30,7 @@ header {
 nav {
     width: 200px;
     background-color: #f0f0f0;
+    font-family: DRAGON_HUNTER;
     color: #000;
     padding: 20px;
     height: 100vh;
@@ -36,6 +41,7 @@ nav {
 
 nav a {
     display: block;
+    font-family: Comfortaa-Regular;
     color: #000;
     text-decoration: none;
     margin: 20px 0; 
@@ -95,6 +101,7 @@ nav a:hover {
 }
 .text {
     background-color:white;
+    font-family: Comfortaa-Regular;
     padding-top: 100px;            
     color: #000;
     position: static;
@@ -102,7 +109,7 @@ nav a:hover {
     
 }
 .text2 {
-    background-color:white;
+    font-family: Comfortaa-Regular;
     top: 20px;            
     color: #000;
     position: relative;
