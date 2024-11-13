@@ -1,0 +1,97 @@
+  /* General styles for the body */
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+    background-color: #f9f9f9; 
+}
+
+@font-face {
+    font-family: DRAGON_HUNTER;
+    src: url(../fonts/DRAGON\ HUNTER.otf);
+}
+
+/* Header styles */
+header {
+    font-family: DRAGON_HUNTER;
+    text-align: center;
+    background-color: rgb(252, 223, 228);
+    color: #000;
+    border-bottom: 2px solid lightpink;
+    padding: 0px;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+/* Main content styles */
+main {
+    padding: 100px 20px 20px; /* Added top padding to account for fixed header */
+}
+
+/* Grid layout for items */
+.item-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for the grid */
+    gap: 20px; /* Space between grid items */
+    margin-left: 240px; /* Ensure no overlap with the sidebar */
+    margin-top: 30px; /* Optional spacing above the grid */
+}
+
+/* Styles for each item card */
+.item-card {
+    background-color: white; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    padding: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    text-align: center; /* Center text in the card */
+}
+
+/* Styles for item images */
+.item-image {
+    width: 100%; /* Make image responsive within the card */
+    height: auto; 
+    border-radius: 8px; 
+    margin-bottom: 10px; /* Space below the image */
+}
+
+/* Navigation styles */
+nav {
+    width: 200px;
+    background-color: #f0f0f0;
+    color: #000;
+    padding: 20px;
+    height: calc(100vh - 150px); /* Adjusted for the header */
+    position: fixed;
+    top: 112px; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation link styles */
+nav a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin: 20px 0; 
+    padding: 8px; 
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+    .item-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+}
+
+@media (max-width: 500px) {
+    .item-container {
+        grid-template-columns: 1fr; /* 1 column for small screens */
+    }
+}
