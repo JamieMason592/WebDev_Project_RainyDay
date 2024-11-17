@@ -92,13 +92,48 @@ nav a:hover {
 
 /* Responsive Design */
 @media (max-width: 800px) {
+    nav {
+        width: 100%;
+        position: relative;
+        top: 0;
+        height: auto;
+        box-shadow: none;
+        margin-bottom: 20px;
+    }
+
     .item-container {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+        margin-left: 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    main {
+        padding: 20px;
     }
 }
 
+/* For smartphones and smaller screens */
 @media (max-width: 500px) {
+    header {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
     .item-container {
-        grid-template-columns: 1fr; /* 1 column for small screens */
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .item-card {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+        padding: 10px;
     }
 }
