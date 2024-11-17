@@ -123,3 +123,61 @@ nav a:hover {
     width: 250px;
     height: auto;
 }
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    header {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
+    nav {
+        width: 100%;
+        height: auto; 
+        position: relative;
+        top: 0;
+        box-shadow: none; 
+        text-align: center; 
+    }
+
+    nav a {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 10px; 
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .box img {
+        height: auto;
+    }
+
+    .box div {
+        padding: 10px;
+    }
+
+    .box2, .box3 {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .text, .text2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+}
