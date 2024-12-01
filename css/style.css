@@ -77,6 +77,11 @@ h1{
 	position: relative;
 	padding: 0 0 10px;
 }
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	font-size: 20px;
+}
 
 .field{
 	width: 100%;
