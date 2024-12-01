@@ -24,10 +24,18 @@
 			<div class="backround"></div>
 			<div class="foreground">
 				<h1>Contact Us</h1>
-				<div style="padding: 0 0 10px;">
-				</div>
-				<input type="text" class="field" placeholder="Your Email">
-				<textarea style="resize: none;" placeholder="Message" class="field"></textarea>
+				
+				<form id="contact-form" action="#" method="POST">
+					<input type="text" class="field" placeholder="Full Name" name="full_name" required>
+					<input type="text" class="field" placeholder="Your Email" name="your_email" required>
+					
+					<h2>Prefered Contact Input</h2>
+					<select id="Prefered Contact Input" class="field" name="contact_input" required>
+						<option value="Email">Email</option>
+						<option value="Phone number">Phone number</option>
+						<option value="None">None</option>
+					</select>
+				<textarea style="resize: none;" placeholder="Message" class="field" required></textarea>
 				<button class="btn">Send</button>
 				<div style="padding: 0 0 10px;">
 				</div>
